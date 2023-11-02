@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConverterGame_Console
 {
+    /*
+     * TODO: Add JSON serialization and deserialization
+     * https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/how-to?pivots=dotnet-6-0
+     * https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/deserialization?pivots=dotnet-6-0
+     */
+
     public class Game
     {
         public RuleSet RuleSet { get; private set; }
